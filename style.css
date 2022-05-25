@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1, p {
+    text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+img {
+    width: 9rem;
+    height: 9rem;
+}
+.row, .row-1, .row-2{
+    height: 9rem;
+    margin: 1.5rem;
+    padding: 1rem ;
+    display: flex;
+}
+.row {
+    background-color: rgb(241, 202, 246);
+    justify-content: space-between;
+}
+.row-1 {
+    background-color: rgb(241, 194, 222);
+    justify-content: space-evenly;
+}
+.row-2 {
+    background-color: rgb(243, 178, 178);
+    justify-content: space-around;
+}
